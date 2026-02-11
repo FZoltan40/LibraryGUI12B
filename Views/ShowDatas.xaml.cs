@@ -18,11 +18,27 @@ namespace LibraryGUI.Views
             _mainWindow = mainWindow;
             
         }
-
-        private void Button_Click(object sender, System.Windows.RoutedEventArgs e)
+        private void MenuItem_Click_1(object sender, RoutedEventArgs e)
         {
             var list = read.ReadAuthors();
-            MessageBox.Show(list?.Count.ToString() ?? "null");
+            dataGrid1.ItemsSource = list;
+        }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            var list = read.ReadCategories();
+            dataGrid1.ItemsSource = list;
+        }
+
+        private void MenuItem_Click_2(object sender, RoutedEventArgs e)
+        {
+            var list = read.ReadAuthors();
+            dataGrid1.ItemsSource = list;
+        }
+
+        private void MenuItem_Click_3(object sender, RoutedEventArgs e)
+        {
+            var list = read.ReadAuthorsWithBooks();
             dataGrid1.ItemsSource = list;
         }
     }

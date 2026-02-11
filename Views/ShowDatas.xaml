@@ -9,10 +9,34 @@
       Title="ShowDatas">
 
     <Grid>
-        <DataGrid x:Name="dataGrid1" AutoGenerateColumns="True" Margin="22,35,10,153"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="41,333,0,0" VerticalAlignment="Top" Width="157" Height="51" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Center" Margin="0,328,0,0" VerticalAlignment="Top" Width="156" Height="51"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="586,328,0,0" VerticalAlignment="Top" Width="156" Height="51"/>
+
+        <Menu>
+            <MenuItem Header="_Read">
+                <MenuItem Header="Authors" Click="MenuItem_Click_1"/>
+                <MenuItem Header="Categories" Click="MenuItem_Click"/>
+                <MenuItem Header="Books" Click="MenuItem_Click_2"/>
+                <MenuItem Header="AuthorsBooks" Click="MenuItem_Click_3" />
+            </MenuItem>
+
+            <MenuItem Header="_Create">
+                <MenuItem Header="Authors"/>
+                <MenuItem Header="Categories"/>
+                <MenuItem Header="Books"/>
+            </MenuItem>
+
+            <MenuItem Header="_Update">
+                <MenuItem Header="Authors"/>
+                <MenuItem Header="Categories"/>
+                <MenuItem Header="Books"/>
+            </MenuItem>
+
+            <MenuItem Header="_Delete">
+                <MenuItem Header="Authors"/>
+                <MenuItem Header="Categories"/>
+                <MenuItem Header="Books"/>
+            </MenuItem>
+        </Menu>
+        <DataGrid x:Name="dataGrid1" AutoGenerateColumns="True" Margin="22,35,10,21"/>
 
     </Grid>
 </Page>

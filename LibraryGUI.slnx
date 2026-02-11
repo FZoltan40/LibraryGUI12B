@@ -2,5 +2,5 @@
   <Folder Name="/Solution Items/">
     <File Path=".gitignore" />
   </Folder>
-  <Project Path="LibraryGUI.csproj" />
+  <Project Path="LibraryGUI.csproj" Id="a173cde4-a00e-4d91-bfe6-3279a335f6c5" />
 </Solution>

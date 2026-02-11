@@ -24,7 +24,6 @@ C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\Microsoft.Extensi
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\Microsoft.Extensions.Options.dll
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\Microsoft.Extensions.Primitives.dll
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\MySql.Data.dll
-C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\MySql.EntityFrameworkCore.dll
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\System.Buffers.dll
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\System.Collections.Immutable.dll
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\System.ComponentModel.Annotations.dll
@@ -58,7 +57,6 @@ C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\Microsoft.Extensi
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\Microsoft.Extensions.Options.xml
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\Microsoft.Extensions.Primitives.xml
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\MySql.Data.xml
-C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\MySql.EntityFrameworkCore.xml
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\System.Buffers.xml
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\System.Collections.Immutable.xml
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\System.Diagnostics.DiagnosticSource.xml
@@ -82,3 +80,10 @@ C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\obj\Debug\LibraryGUI.exe
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\obj\Debug\LibraryGUI.pdb
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\obj\Debug\Views\ShowDatas.g.cs
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\obj\Debug\Views\ShowDatas.baml
+C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\MySqlConnector.dll
+C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\Pomelo.JsonObject.dll
+C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\MySqlConnector.xml
+C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\Pomelo.EntityFrameworkCore.MySql.xml
