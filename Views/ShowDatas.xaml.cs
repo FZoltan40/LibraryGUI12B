@@ -32,7 +32,7 @@ namespace LibraryGUI.Views
 
         private void MenuItem_Click_2(object sender, RoutedEventArgs e)
         {
-            var list = read.ReadAuthors();
+            var list = read.ReadBooks();
             dataGrid1.ItemsSource = list;
         }
 

@@ -87,3 +87,5 @@ C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\Pomelo.JsonObject
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\MySqlConnector.xml
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\Newtonsoft.Json.xml
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\Pomelo.EntityFrameworkCore.MySql.xml
+C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\obj\Debug\Views\CreateAuthors.g.cs
+C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\obj\Debug\Views\CreateAuthors.baml

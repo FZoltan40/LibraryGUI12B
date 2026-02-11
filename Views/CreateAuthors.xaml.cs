@@ -1,4 +1,4 @@
-﻿using LibraryGUI.Views;
+﻿using LibraryGUI.Datas;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,17 +14,22 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace LibraryGUI
+namespace LibraryGUI.Views
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for CreateAuthors.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class CreateAuthors : Page
     {
-        public MainWindow()
+        Create create = new Create();
+        public CreateAuthors()
         {
             InitializeComponent();
-            MainPage.Navigate(new CreateAuthors());
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            create.CreateAuthor(authorText.Text);
         }
     }
 }
