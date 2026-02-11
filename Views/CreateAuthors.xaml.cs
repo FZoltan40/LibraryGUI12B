@@ -1,4 +1,5 @@
 ﻿using LibraryGUI.Datas;
+using LibraryGUI.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,7 +30,8 @@ namespace LibraryGUI.Views
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            create.CreateAuthor(authorText.Text);
+            var authorResult = create.CreateAuthor(authorText.Text) as LibraryResults;
+            MessageBox.Show(authorResult.Message);
         }
     }
 }

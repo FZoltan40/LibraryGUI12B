@@ -172,6 +172,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Datas\Create.cs" />
+    <Compile Include="Models\LibraryResults.cs" />
     <Compile Include="Views\CreateAuthors.xaml.cs">
       <DependentUpon>CreateAuthors.xaml</DependentUpon>
     </Compile>

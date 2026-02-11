@@ -9,7 +9,8 @@ namespace LibraryGUI.Datas
 {
     internal class Create
     {
-        public object CreateAuthor(string name) 
+        LibraryResults libraryResults = new LibraryResults();
+        public LibraryResults CreateAuthor(string name) 
         {
             using (var context = new librarydbContext())
             {
@@ -20,7 +21,11 @@ namespace LibraryGUI.Datas
 
                 context.Authors.Add(author);
                 context.SaveChanges();
-                return new { message = "Sikeres felvétel", result = author };
+                libraryResults.Message = "Sikeres felvétel";
+                libraryResults.Result = author.AuthorName;
+
+
+                return libraryResults;
             }
            
         }
