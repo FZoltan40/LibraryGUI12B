@@ -8,13 +8,43 @@
       d:DesignHeight="250" d:DesignWidth="500"
       Title="CreateAuthors">
 
-    <Grid>
+    <Grid Margin="0,0,-21,10">
         <Grid.RowDefinitions>
-            <RowDefinition Height="103*"/>
-            <RowDefinition Height="122*"/>
+            <RowDefinition/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBox x:Name="authorText" HorizontalAlignment="Center" Height="95" Margin="0,19,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="270"/>
-        <Button Content="Hozzáad" HorizontalAlignment="Center" Height="73" Margin="0,27,0,0" VerticalAlignment="Top" Width="270" Grid.Row="1" Click="Button_Click"/>
 
+        <StackPanel Grid.RowSpan="2"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Width="200">
+
+            <!-- Label -->
+            <Label Content="Szerző neve"
+               FontWeight="Bold"
+               Margin="0,0,0,5"/>
+
+            <!-- TextBox csak alsó kerettel -->
+            <Border BorderBrush="Gray"
+                BorderThickness="0,0,0,2"
+                Margin="0,0,0,15">
+
+                <TextBox x:Name="authorText"
+                     BorderThickness="0"
+                     Background="Transparent"
+                     Height="30"
+                     FontSize="14"/>
+            </Border>
+
+            <!-- Gomb -->
+            <Button Content="Hozzáad"
+                Height="40"
+                FontWeight="Bold"
+                Background="#FF1B5ACE"
+                Foreground="White"
+                Click="Button_Click"/>
+
+        </StackPanel>
     </Grid>
+
 </Page>

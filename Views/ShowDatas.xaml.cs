@@ -1,4 +1,7 @@
 ﻿using LibraryGUI.Datas;
+using LibraryGUI.Models;
+using System.Collections;
+using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -16,6 +19,13 @@ namespace LibraryGUI.Views
             InitializeComponent();
           
         }
-      
+
+        private void dataGrid1_AutoGeneratingColumn(object sender, DataGridAutoGeneratingColumnEventArgs e)
+        {
+            if (e.PropertyType.IsClass && e.PropertyType != typeof(string))
+            {
+                e.Cancel = true;
+            }
+        }
     }
 }

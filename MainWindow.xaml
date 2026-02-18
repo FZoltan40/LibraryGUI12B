@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LibraryGUI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="750">
     <Grid>
         <Menu>
             <MenuItem Header="_Read">
@@ -17,8 +17,8 @@
 
             <MenuItem Header="_Create">
                 <MenuItem Header="Authors" Click="MenuItem_Click_3"/>
-                <MenuItem Header="Categories"/>
-                <MenuItem Header="Books"/>
+                <MenuItem Header="Categories" Click="MenuItem_Click_4"/>
+                <MenuItem Header="Books" Click="MenuItem_Click_5"/>
             </MenuItem>
 
             <MenuItem Header="_Update">

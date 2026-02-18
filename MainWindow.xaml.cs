@@ -26,36 +26,51 @@ namespace LibraryGUI
         Read read = new Read();
         Create create = new Create();
         ShowDatas showDatas = new ShowDatas();
-        CreateAuthors createAuthors = new CreateAuthors();
 
         public MainWindow()
         {
             InitializeComponent();
             MainPage.Navigate(showDatas);
+            var list = read.ReadBooks();
+            showDatas.dataGrid1.ItemsSource = list;
+
         }
 
         private void MenuItem_Click(object sender, RoutedEventArgs e)
         {
+            MainPage.Navigate(showDatas);
             var list = read.ReadAuthors();
             showDatas.dataGrid1.ItemsSource = list;
         }
 
         private void MenuItem_Click_1(object sender, RoutedEventArgs e)
         {
+            MainPage.Navigate(showDatas);
             var list = read.ReadCategories();
             showDatas.dataGrid1.ItemsSource = list;
         }
 
         private void MenuItem_Click_2(object sender, RoutedEventArgs e)
         {
+            MainPage.Navigate(showDatas);
             var list = read.ReadBooks();
             showDatas.dataGrid1.ItemsSource = list;
         }
 
         private void MenuItem_Click_3(object sender, RoutedEventArgs e)
         {
-            MainPage.Navigate(createAuthors);
+            MainPage.Navigate(new CreateAuthors());
 
+        }
+
+        private void MenuItem_Click_4(object sender, RoutedEventArgs e)
+        {
+            MainPage.Navigate(new CreateCategory());
+        }
+
+        private void MenuItem_Click_5(object sender, RoutedEventArgs e)
+        {
+            MainPage.Navigate(new CreateBook());
         }
     }
 }

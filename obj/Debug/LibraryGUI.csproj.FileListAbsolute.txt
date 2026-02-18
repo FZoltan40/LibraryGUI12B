@@ -89,3 +89,7 @@ C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\Newtonsoft.Json.x
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\bin\Debug\Pomelo.EntityFrameworkCore.MySql.xml
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\obj\Debug\Views\CreateAuthors.g.cs
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\obj\Debug\Views\CreateAuthors.baml
+C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\obj\Debug\Views\CreateCategory.g.cs
+C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\obj\Debug\Views\CreateCategory.baml
+C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\obj\Debug\Views\CreateBook.g.cs
+C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\obj\Debug\Views\CreateBook.baml

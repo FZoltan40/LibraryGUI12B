@@ -1,0 +1,95 @@
+﻿<Page x:Class="LibraryGUI.CreateBook"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LibraryGUI"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="CreateBook">
+
+    <Grid Margin="0,0,-21,10">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.RowSpan="2"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Width="200">
+
+            <!-- Label -->
+            <Label Content="Könyv címe"
+           FontWeight="Bold"
+           Margin="0,0,0,5"/>
+
+            <Border BorderBrush="Gray"
+            BorderThickness="0,0,0,2"
+            Margin="0,0,0,15">
+
+                <TextBox x:Name="bookTitle"
+                 BorderThickness="0"
+                 Background="Transparent"
+                 Height="30"
+                 FontSize="14"/>
+            </Border>
+
+            <Label Content="Kiadás dáruma"
+             FontWeight="Bold"
+             Margin="0,0,0,5"/>
+
+              <Border BorderBrush="Gray"
+              BorderThickness="0,0,0,2"
+              Margin="0,0,0,15">
+
+              <DatePicker x:Name="bookDate"
+                   BorderThickness="0"
+                   Background="Transparent"
+                   Height="30"
+                   FontSize="14"/>
+            </Border>
+
+            <Label Content="Szerző Id"
+               FontWeight="Bold"
+               Margin="0,0,0,5"/>
+
+            <!-- TextBox csak alsó kerettel -->
+            <Border BorderBrush="Gray"
+                BorderThickness="0,0,0,2"
+                Margin="0,0,0,15">
+
+                <TextBox x:Name="authorId"
+                 BorderThickness="0"
+                 Background="Transparent"
+                 Height="30"
+                 FontSize="14"/>
+            </Border>
+
+            <Label Content="Ketgória Id"
+               FontWeight="Bold"
+               Margin="0,0,0,5"/>
+
+            <!-- TextBox csak alsó kerettel -->
+            <Border BorderBrush="Gray"
+                BorderThickness="0,0,0,2"
+                Margin="0,0,0,15">
+
+                <TextBox x:Name="categoryId"
+                 BorderThickness="0"
+                 Background="Transparent"
+                 Height="30"
+                 FontSize="14"/>
+            </Border>
+
+            <!-- Gomb -->
+            <Button Content="Hozzáad"
+            Height="40"
+            FontWeight="Bold"
+            Background="#FF1B5ACE"
+            Foreground="White"
+            Click="Button_Click"/>
+
+        </StackPanel>
+    </Grid>
+</Page>

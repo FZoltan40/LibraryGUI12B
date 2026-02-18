@@ -9,7 +9,14 @@
       Title="ShowDatas">
 
     <Grid>
-        <DataGrid x:Name="dataGrid1" AutoGenerateColumns="True" Margin="22,35,10,21"/>
-
+<DataGrid x:Name="dataGrid1"
+          AutoGenerateColumns="True"
+          AutoGeneratingColumn="dataGrid1_AutoGeneratingColumn"
+          HorizontalAlignment="Center"
+          VerticalAlignment="Center"
+          ColumnWidth="Auto"
+          Width="Auto"
+          Height="Auto"
+          Margin="22,35,10,21"/>
     </Grid>
 </Page>

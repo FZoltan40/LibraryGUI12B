@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\App.xaml
-3483729343
+5420225948
 
-14-1160669708
+16-483061493
 55337108350
-MainWindow.xaml;Views\CreateAuthors.xaml;Views\ShowDatas.xaml;
+Views\CreateBook.xaml;MainWindow.xaml;Views\CreateAuthors.xaml;Views\CreateCategory.xaml;Views\ShowDatas.xaml;
 
 False
 
