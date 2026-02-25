@@ -171,6 +171,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Datas\Delete.cs" />
     <Compile Include="Views\CreateBook.xaml.cs">
       <DependentUpon>CreateBook.xaml</DependentUpon>
     </Compile>
