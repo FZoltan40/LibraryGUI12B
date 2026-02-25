@@ -72,5 +72,20 @@ namespace LibraryGUI
         {
             MainPage.Navigate(new CreateBook());
         }
+
+        private void MenuItem_Click_6(object sender, RoutedEventArgs e)
+        {
+            MainPage.Navigate(new DeleteAuthor());
+        }
+
+        private void MenuItem_Click_7(object sender, RoutedEventArgs e)
+        {
+            MainPage.Navigate(new DeleteCategory());
+        }
+
+        private void MenuItem_Click_8(object sender, RoutedEventArgs e)
+        {
+            MainPage.Navigate(new DeleteBook());
+        }
     }
 }

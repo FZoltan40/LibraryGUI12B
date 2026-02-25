@@ -53,24 +53,32 @@ namespace LibraryGUI.Datas
 
         public LibraryResults CreateBooks(string title, DateTime date, int authId, int categoryId)
         {
-            using (var context = new librarydbContext())
+            try
             {
-                var book = new Books
+                using (var context = new librarydbContext())
                 {
-                    Title = title,
-                    PublishDate = date,
-                    AuthorId = authId,
-                    CategoryId = categoryId
-                };
+                    var book = new Books
+                    {
+                        Title = title,
+                        PublishDate = date,
+                        AuthorId = authId,
+                        CategoryId = categoryId
+                    };
 
-                context.Books.Add(book);
-                context.SaveChanges();
-                libraryResults.Message = "Sikeres könyv felvétel";
-                libraryResults.Result = book;
-
-
+                    context.Books.Add(book);
+                    context.SaveChanges();
+                    libraryResults.Message = "Sikeres könyv felvétel";
+                    libraryResults.Result = book;
+                    return libraryResults;
+                }
+            }
+            catch (Exception ex)
+            {
+                libraryResults.Message = ex.InnerException.Message;
+                libraryResults.Result = null;
                 return libraryResults;
             }
+           
 
         }
     }

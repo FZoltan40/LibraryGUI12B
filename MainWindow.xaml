@@ -28,9 +28,9 @@
             </MenuItem>
 
             <MenuItem Header="_Delete">
-                <MenuItem Header="Authors"/>
-                <MenuItem Header="Categories"/>
-                <MenuItem Header="Books"/>
+                <MenuItem Header="Authors" Click="MenuItem_Click_6"/>
+                <MenuItem Header="Categories" Click="MenuItem_Click_7"/>
+                <MenuItem Header="Books" Click="MenuItem_Click_8"/>
             </MenuItem>
         </Menu>
         <Frame x:Name="MainPage" Padding="15"/>

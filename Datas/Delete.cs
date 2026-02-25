@@ -30,5 +30,49 @@ namespace LibraryGUI.Datas
                 return results;
             }
         }
+
+        public object DeleteCategory(int id)
+        {
+            LibraryResults results = new LibraryResults();
+            using (var context = new librarydbContext())
+            {
+                var category = context.Categories.Find(id);
+
+                if (category != null)
+                {
+                    context.Categories.Remove(category);
+                    context.SaveChanges();
+                    results.Message = "Sikeres törlés";
+                    results.Result = category;
+                    return results;
+                }
+
+                results.Message = "Sikertelen törlés";
+                results.Result = category;
+                return results;
+            }
+        }
+
+        public object DeleteBook(int id)
+        {
+            LibraryResults results = new LibraryResults();
+            using (var context = new librarydbContext())
+            {
+                var book = context.Books.Find(id);
+
+                if (book != null)
+                {
+                    context.Books.Remove(book);
+                    context.SaveChanges();
+                    results.Message = "Sikeres törlés";
+                    results.Result = book;
+                    return results;
+                }
+
+                results.Message = "Sikertelen törlés";
+                results.Result = book;
+                return results;
+            }
+        }
     }
 }

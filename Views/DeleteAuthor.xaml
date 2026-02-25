@@ -1,4 +1,4 @@
-﻿<Page x:Class="LibraryGUI.Views.ShowDatas"
+﻿<Page x:Class="LibraryGUI.Views.DeleteAuthor"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,17 +6,21 @@
       xmlns:local="clr-namespace:LibraryGUI.Views"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="ShowDatas">
+      Title="DeleteAuthor">
 
- <Grid>
-<DataGrid x:Name="dataGrid1"
+    <Grid>
+        <DataGrid x:Name="dataGrid2"
           AutoGenerateColumns="True"
-          AutoGeneratingColumn="dataGrid1_AutoGeneratingColumn"
+          AutoGeneratingColumn="dataGrid2_AutoGeneratingColumn"
           HorizontalAlignment="Center"
           VerticalAlignment="Center"
           ColumnWidth="Auto"
           Width="Auto"
           Height="Auto"
-          Margin="22,35,10,21"/>
+          Margin="22,35,10,21"
+          IsReadOnly="True" 
+          ToolTip="Dupla katt-ra törli a rekordot."
+          MouseDoubleClick="dataGrid2_MouseDoubleClick"
+          SelectionChanged="dataGrid2_SelectionChanged"/>
     </Grid>
 </Page>
