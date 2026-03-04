@@ -22,7 +22,7 @@
             </MenuItem>
 
             <MenuItem Header="_Update">
-                <MenuItem Header="Authors"/>
+                <MenuItem Header="Authors" Click="MenuItem_Click_9"/>
                 <MenuItem Header="Categories"/>
                 <MenuItem Header="Books"/>
             </MenuItem>

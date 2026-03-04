@@ -99,3 +99,5 @@ C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\obj\Debug\Views\DeleteBook.
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\obj\Debug\Views\DeleteCategory.g.cs
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\obj\Debug\Views\DeleteBook.baml
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\obj\Debug\Views\DeleteCategory.baml
+C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\obj\Debug\Views\UpdateAuthor.g.cs
+C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\obj\Debug\Views\UpdateAuthor.baml

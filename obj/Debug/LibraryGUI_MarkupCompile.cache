@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\zoli\Desktop\2025_2026\12Asztali\LibraryGUI\App.xaml
-8-1605001253
+9-1742201023
 
-201220497526
+22-1494129256
 55337108350
-Views\CreateBook.xaml;MainWindow.xaml;Views\CreateAuthors.xaml;Views\CreateCategory.xaml;Views\DeleteAuthor.xaml;Views\DeleteBook.xaml;Views\DeleteCategory.xaml;Views\ShowDatas.xaml;
+Views\CreateBook.xaml;MainWindow.xaml;Views\CreateAuthors.xaml;Views\CreateCategory.xaml;Views\DeleteAuthor.xaml;Views\DeleteBook.xaml;Views\DeleteCategory.xaml;Views\ShowDatas.xaml;Views\UpdateAuthor.xaml;
 
 False
 

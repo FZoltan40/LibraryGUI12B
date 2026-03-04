@@ -24,7 +24,6 @@ namespace LibraryGUI
     public partial class MainWindow : Window
     {
         Read read = new Read();
-        Create create = new Create();
         ShowDatas showDatas = new ShowDatas();
 
         public MainWindow()
@@ -86,6 +85,11 @@ namespace LibraryGUI
         private void MenuItem_Click_8(object sender, RoutedEventArgs e)
         {
             MainPage.Navigate(new DeleteBook());
+        }
+
+        private void MenuItem_Click_9(object sender, RoutedEventArgs e)
+        {
+            MainPage.Navigate(new UpdateAuthor());
         }
     }
 }

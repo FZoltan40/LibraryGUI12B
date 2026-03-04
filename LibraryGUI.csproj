@@ -172,6 +172,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Datas\Delete.cs" />
+    <Compile Include="Datas\Update.cs" />
     <Compile Include="Views\CreateBook.xaml.cs">
       <DependentUpon>CreateBook.xaml</DependentUpon>
     </Compile>
@@ -194,6 +195,9 @@
     </Compile>
     <Compile Include="Views\ShowDatas.xaml.cs">
       <DependentUpon>ShowDatas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UpdateAuthor.xaml.cs">
+      <DependentUpon>UpdateAuthor.xaml</DependentUpon>
     </Compile>
     <Page Include="Views\CreateBook.xaml">
       <SubType>Designer</SubType>
@@ -233,6 +237,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\ShowDatas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\UpdateAuthor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
