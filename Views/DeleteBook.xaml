@@ -9,7 +9,7 @@
       Title="DeleteBook">
 
     <Grid>
-        <DataGrid x:Name="dataGrid2"
+      <DataGrid x:Name="dataGrid2"
       AutoGenerateColumns="True"
       AutoGeneratingColumn="dataGrid2_AutoGeneratingColumn"
       HorizontalAlignment="Center"
